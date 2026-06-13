@@ -1,3 +1,3 @@
 # Base requirements
-pip install --force-reinstall --no-cache-dir --no-deps matplotlib
-pip install --force-reinstall --no-cache-dir --no-deps datasets
+matplotlib
+datasets

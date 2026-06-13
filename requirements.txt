@@ -1,23 +1,22 @@
 # Base requirements
-
-pip install --force-reinstall --no-cache-dir --no-deps transformers[tf,torch,sentencepiece,vision,optuna,sklearn,onnxruntime]==4.11.3
-pip install --force-reinstall --no-cache-dir --no-deps datasets[audio]==1.16.1
-pip install --force-reinstall --no-cache-dir --no-deps matplotlib
-pip install --force-reinstall --no-cache-dir --no-deps ipywidgets
+transformers[tf,torch,sentencepiece,vision,optuna,sklearn,onnxruntime]==4.11.3
+datasets[audio]==1.16.1
+matplotlib
+ipywidgets
 # Chapter 2 - Classification
-pip install --force-reinstall --no-cache-dir --no-deps umap-learn==0.5.1
+umap-learn==0.5.1
 # Chapter 3 - Anatomy
-pip install --force-reinstall --no-cache-dir --no-deps bertviz==1.2.0
+bertviz==1.2.0
 # Chapter 4 - NER
-pip install --force-reinstall --no-cache-dir --no-deps seqeval==1.2.2
+seqeval==1.2.2
 # Chapter 6 - Summarization
-pip install --force-reinstall --no-cache-dir --no-deps nltk==3.6.6
-pip install --force-reinstall --no-cache-dir --no-deps sacrebleu==1.5.1
-pip install --force-reinstall --no-cache-dir --no-deps rouge-score==0.0.4
-pip install --force-reinstall --no-cache-dir --no-deps py7zr # Needed for samsum dataset
+nltk==3.6.6
+sacrebleu==1.5.1
+rouge-score==0.0.4
+py7zr # Needed for samsum dataset
 # Chapter 9 - Few labels
-pip install --force-reinstall --no-cache-dir --no-deps nlpaug==1.1.7
-pip install --force-reinstall --no-cache-dir --no-deps scikit-multilearn==0.2.0
+nlpaug==1.1.7
+scikit-multilearn==0.2.0
 # Chapter 10 - Pretraining
-pip install --force-reinstall --no-cache-dir --no-deps psutil
-pip install --force-reinstall --no-cache-dir --no-deps accelerate==0.5.1
+psutil
+accelerate==0.5.1
