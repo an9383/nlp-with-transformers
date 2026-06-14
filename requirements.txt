@@ -1,8 +1,8 @@
 # Base requirements
-transformers[tf,torch,sentencepiece,vision,optuna,sklearn,onnxruntime]==4.11.3
-datasets[audio]==1.16.1
-matplotlib
-ipywidgets
+pip install --no-deps --force-reinstall transformers[tf,torch,sentencepiece,vision,optuna,sklearn,onnxruntime]==4.11.3
+pip install --no-deps --force-reinstall datasets[audio]==1.16.1
+pip install --no-deps --force-reinstall matplotlib
+pip install --no-deps --force-reinstall ipywidgets
 # Chapter 2 - Classification
 umap-learn==0.5.1
 # Chapter 3 - Anatomy
